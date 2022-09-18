@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: guest-management
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/guest/**
+        - id: inventory-management
+          uri: http://localhost:8085/
+          predicates:
+            - Path=/inventory/**
+
+  application:
+    name: api-gateway
