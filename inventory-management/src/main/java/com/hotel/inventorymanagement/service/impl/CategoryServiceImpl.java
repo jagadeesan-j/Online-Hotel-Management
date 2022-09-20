@@ -33,8 +33,8 @@ public class CategoryServiceImpl implements CategoryService {
     public Category updateCategoryByCategoryID(String categoryID, Category newCategory) {
         Category oldCategory = categoryRepository.findByCategoryID(categoryID);
 
-        if(oldCategory != null) {
-            if(newCategory.getCategoryName()!=null &&!newCategory.getCategoryName().isEmpty())
+        if (oldCategory != null) {
+            if (newCategory.getCategoryName() != null && !newCategory.getCategoryName().isEmpty())
                 oldCategory.setCategoryName(newCategory.getCategoryName());
 
             return categoryRepository.save(oldCategory);

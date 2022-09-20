@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 9090
 
 spring:
   cloud:
@@ -13,6 +13,14 @@ spring:
           uri: http://localhost:8085/
           predicates:
             - Path=/inventory/**
+        - id: staff-management
+          uri: http://localhost:8082/
+          predicates:
+            - Path=/staff/**
+        - id: reservation-management
+          uri: http://localhost:8084/
+          predicates:
+            - Path=/reservation/**
 
   application:
     name: api-gateway
