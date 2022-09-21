@@ -2,6 +2,7 @@ package com.hotel.guestmanagement.controller;
 
 import com.hotel.guestmanagement.entity.Guest;
 import com.hotel.guestmanagement.service.GuestService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class GuestController {
     Logger logger = LoggerFactory.getLogger(GuestController.class);
 
     @GetMapping("/test")
+    @ApiOperation(value = "Tests Guest Controller.",
+            notes = "This API returns a string if the controller is working fine.",
+            response = String.class)
     public String test() {
         logger.debug("Guest test endpoint called.");
         return "Testing guest controller.";

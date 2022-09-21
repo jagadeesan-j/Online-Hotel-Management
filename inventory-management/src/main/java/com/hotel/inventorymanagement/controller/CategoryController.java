@@ -2,6 +2,7 @@ package com.hotel.inventorymanagement.controller;
 
 import com.hotel.inventorymanagement.entity.Category;
 import com.hotel.inventorymanagement.service.CategoryService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class CategoryController {
     Logger logger = LoggerFactory.getLogger(CategoryController.class);
 
     @GetMapping("/test")
+    @ApiOperation(value = "Tests Category Controller.",
+            notes = "This API returns a string if the controller is working fine.",
+            response = String.class)
     public String test() {
         logger.debug("Category test endpoint called.");
         return "Testing category controller.";

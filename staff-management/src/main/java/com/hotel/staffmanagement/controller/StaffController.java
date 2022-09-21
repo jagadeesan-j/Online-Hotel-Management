@@ -2,6 +2,7 @@ package com.hotel.staffmanagement.controller;
 
 import com.hotel.staffmanagement.entity.Staff;
 import com.hotel.staffmanagement.service.StaffService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class StaffController {
     Logger logger = LoggerFactory.getLogger(StaffController.class);
 
     @GetMapping("/test")
+    @ApiOperation(value = "Tests Staff Controller.",
+            notes = "This API returns a string if the controller is working fine.",
+            response = String.class)
     public String test(){
         logger.debug("Staff test endpoint called.");
         return "Testing staff controller";

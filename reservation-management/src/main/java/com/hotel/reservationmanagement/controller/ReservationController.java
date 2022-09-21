@@ -2,6 +2,7 @@ package com.hotel.reservationmanagement.controller;
 
 import com.hotel.reservationmanagement.entity.Reservation;
 import com.hotel.reservationmanagement.service.ReservationService;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class ReservationController {
     Logger logger = LoggerFactory.getLogger(ReservationController.class);
 
     @GetMapping("/test")
+    @ApiOperation(value = "Tests Reservation Controller.",
+            notes = "This API returns a string if the controller is working fine.",
+            response = String.class)
     public String test() {
         logger.debug("Reservation test endpoint called.");
         return "Testing reservation controller.";
