@@ -24,38 +24,38 @@ public class CategoryController {
             notes = "This API returns a string if the controller is working fine.",
             response = String.class)
     public String test() {
-        logger.debug("Category test endpoint called.");
+        logger.info("Category test endpoint called.");
         return "Testing category controller.";
     }
 
     @PostMapping("/add")
     public Category addCategory(@RequestBody Category category) {
-        logger.debug("Add category endpoint called.");
+        logger.info("Add category endpoint called.");
         return categoryService.addCategory(category);
     }
 
     @GetMapping("/all")
     public List<Category> getAllCategory() {
-        logger.debug("List all category endpoint called.");
+        logger.info("List all category endpoint called.");
         return categoryService.getAllCategory();
     }
 
     @GetMapping("/getByCategoryID/{categoryID}")
     public Category getCategoryByCategoryID(@PathVariable("categoryID") String categoryID) {
-        logger.debug("Get category by category ID endpoint called.");
+        logger.info("Get category by category ID endpoint called.");
         return categoryService.getCategoryByCategoryID(categoryID);
     }
 
     @PutMapping("/updateByCategoryID/{categoryID}")
     public Category updateCategoryByCategoryID(@RequestBody Category newCategory, @PathVariable("categoryID") String categoryID) {
-        logger.debug("Update category by ID endpoint called.");
+        logger.info("Update category by ID endpoint called.");
         return categoryService.updateCategoryByCategoryID(categoryID, newCategory);
     }
 
     @DeleteMapping("/deleteByCategoryID/{categoryID}")
     public String deleteCategoryByCategoryID(@PathVariable("categoryID") String categoryID) {
         categoryService.deleteCategoryByCategoryID(categoryID);
-        logger.debug("Delete category by category ID endpoint called.");
+        logger.info("Delete category by category ID endpoint called.");
         return "Deleted successfully.";
     }
 }

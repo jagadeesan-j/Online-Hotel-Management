@@ -24,38 +24,38 @@ public class RoomController {
             notes = "This API returns a string if the controller is working fine.",
             response = String.class)
     public String test() {
-        logger.debug("Room test endpoint called.");
+        logger.info("Room test endpoint called.");
         return "Testing room controller.";
     }
 
     @PostMapping("/add")
     public Room addRoom(@RequestBody Room room) {
-        logger.debug("Add room endpoint called.");
+        logger.info("Add room endpoint called.");
         return roomService.addRoom(room);
     }
 
     @GetMapping("/all")
     public List<Room> getAllRoom() {
-        logger.debug("List all room endpoint called.");
+        logger.info("List all room endpoint called.");
         return roomService.getAllRoom();
     }
 
     @GetMapping("/getByRoomNumber/{roomNumber}")
     public Room getRoomByRoomNumber(@PathVariable("roomNumber") int roomNumber) {
-        logger.debug("Get room by room number endpoint called.");
+        logger.info("Get room by room number endpoint called.");
         return roomService.getRoomByRoomNumber(roomNumber);
     }
 
     @PutMapping("/updateByRoomNumber/{roomNumber}")
     public Room updateRoomByRoomNumber(@RequestBody Room newRoom, @PathVariable("roomNumber") int roomNumber) {
-        logger.debug("Update room by room number endpoint called.");
+        logger.info("Update room by room number endpoint called.");
         return roomService.updateRoomByRoomNumber(roomNumber, newRoom);
     }
 
     @DeleteMapping("/deleteByRoomNumber/{roomNumber}")
     public String deleteRoomByRoomNumber(@PathVariable("roomNumber") int roomNumber) {
         roomService.deleteRoomByRoomNumber(roomNumber);
-        logger.debug("Delete room by room number endpoint called.");
+        logger.info("Delete room by room number endpoint called.");
         return "Deleted successfully.";
     }
 }

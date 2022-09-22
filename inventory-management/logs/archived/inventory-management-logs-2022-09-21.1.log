@@ -1,0 +1,8 @@
+2022-09-21 21:46:41,209 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-10] Get category by category ID endpoint called.
+2022-09-21 21:46:41,968 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-1] Get category by category ID endpoint called.
+2022-09-21 21:46:43,716 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-2] Category test endpoint called.
+2022-09-21 21:46:44,561 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-3] Category test endpoint called.
+2022-09-21 21:57:56,461 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 20144 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
+2022-09-21 21:57:56,464 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-21 21:57:56,466 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-21 21:58:04,680 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 9.345 seconds (JVM running for 10.373)

@@ -1,0 +1,64 @@
+2022-09-21 21:35:20,476 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 21244 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
+2022-09-21 21:35:20,483 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-21 21:35:20,485 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-21 21:35:30,958 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 11.799 seconds (JVM running for 12.646)
+2022-09-21 21:43:19,921 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 19904 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
+2022-09-21 21:43:19,924 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-21 21:43:19,925 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-21 21:43:28,650 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 10.317 seconds (JVM running for 11.243)
+2022-09-21 21:43:49,690 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-1] Category test endpoint called.
+2022-09-21 21:43:50,789 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-3] Category test endpoint called.
+2022-09-21 21:43:54,206 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-4] List all category endpoint called.
+2022-09-21 21:43:55,619 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-5] List all category endpoint called.
+2022-09-21 21:44:29,189 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-6] Category test endpoint called.
+2022-09-21 21:44:30,208 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-7] Category test endpoint called.
+2022-09-21 21:44:32,618 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-8] List all category endpoint called.
+2022-09-21 21:44:33,489 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-9] List all category endpoint called.
+2022-09-21 21:44:35,624 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-10] Get category by category ID endpoint called.
+2022-09-21 21:44:36,554 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-2] Get category by category ID endpoint called.
+2022-09-21 21:44:37,351 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-1] Get category by category ID endpoint called.
+2022-09-21 21:44:42,097 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-3] Get category by category ID endpoint called.
+2022-09-21 21:44:42,976 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-4] Get category by category ID endpoint called.
+2022-09-21 21:44:43,816 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-5] Get category by category ID endpoint called.
+2022-09-21 21:45:28,366 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 20848 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
+2022-09-21 21:45:28,371 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-21 21:45:28,372 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-21 21:45:35,710 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 8.515 seconds (JVM running for 9.339)
+2022-09-21 21:45:48,635 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-2] Get category by category ID endpoint called.
+2022-09-21 21:45:50,545 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-3] Get category by category ID endpoint called.
+2022-09-21 21:45:52,108 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-4] List all category endpoint called.
+2022-09-21 21:45:52,901 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-5] List all category endpoint called.
+2022-09-21 21:45:54,414 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-6] Category test endpoint called.
+2022-09-21 21:45:55,180 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-7] Category test endpoint called.
+2022-09-21 21:45:56,814 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-8] List all category endpoint called.
+2022-09-21 21:45:57,500 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-9] List all category endpoint called.
+2022-09-21 21:45:58,080 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-10] List all category endpoint called.
+2022-09-21 21:45:59,466 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-1] Get category by category ID endpoint called.
+2022-09-21 21:46:00,168 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-2] Get category by category ID endpoint called.
+2022-09-21 21:46:00,834 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-3] Get category by category ID endpoint called.
+2022-09-21 21:46:02,535 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-4] Category test endpoint called.
+2022-09-21 21:46:03,195 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-5] Category test endpoint called.
+2022-09-21 21:46:03,749 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-6] Category test endpoint called.
+2022-09-21 21:46:05,293 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-7] Get category by category ID endpoint called.
+2022-09-21 21:46:05,986 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-8] Get category by category ID endpoint called.
+2022-09-21 21:46:21,927 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-9] Get category by category ID endpoint called.
+2022-09-21 21:46:22,702 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-10] Get category by category ID endpoint called.
+2022-09-21 21:46:23,482 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-1] Get category by category ID endpoint called.
+2022-09-21 21:46:25,388 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-2] List all category endpoint called.
+2022-09-21 21:46:26,286 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-3] List all category endpoint called.
+2022-09-21 21:46:27,030 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-4] List all category endpoint called.
+2022-09-21 21:46:27,808 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-5] List all category endpoint called.
+2022-09-21 21:46:29,417 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-6] Category test endpoint called.
+2022-09-21 21:46:30,095 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-7] Category test endpoint called.
+2022-09-21 21:46:30,739 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-8] Category test endpoint called.
+2022-09-21 21:46:31,428 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-9] Category test endpoint called.
+2022-09-21 21:46:32,159 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-10] Category test endpoint called.
+2022-09-21 21:46:33,574 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-1] Get category by category ID endpoint called.
+2022-09-21 21:46:34,198 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-2] Get category by category ID endpoint called.
+2022-09-21 21:46:34,799 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-3] Get category by category ID endpoint called.
+2022-09-21 21:46:35,472 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-4] Get category by category ID endpoint called.
+2022-09-21 21:46:37,016 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-5] List all category endpoint called.
+2022-09-21 21:46:37,592 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-6] List all category endpoint called.
+2022-09-21 21:46:38,260 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-7] List all category endpoint called.
+2022-09-21 21:46:39,102 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-8] List all category endpoint called.
+2022-09-21 21:46:39,768 DEBUG com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-9] List all category endpoint called.

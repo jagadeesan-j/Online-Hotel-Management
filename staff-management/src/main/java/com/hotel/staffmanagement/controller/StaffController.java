@@ -24,38 +24,38 @@ public class StaffController {
             notes = "This API returns a string if the controller is working fine.",
             response = String.class)
     public String test(){
-        logger.debug("Staff test endpoint called.");
+        logger.info("Staff test endpoint called.");
         return "Testing staff controller";
     }
 
     @PostMapping("/add")
     public Staff addStaff(@RequestBody Staff staff){
-        logger.debug("Add staff endpoint called.");
+        logger.info("Add staff endpoint called.");
         return staffService.addStaff(staff);
     }
 
     @GetMapping("/all")
     public List<Staff> getAllStaff(){
-        logger.debug("List all staff endpoint called.");
+        logger.info("List all staff endpoint called.");
         return staffService.getAllStaff();
     }
 
     @GetMapping("/getByEmployeeCode/{employeeCode}")
     public Staff getStaffByEmployeeCode(@PathVariable("employeeCode")int employeeCode){
-        logger.debug("Get staff by employee code endpoint called.");
+        logger.info("Get staff by employee code endpoint called.");
         return staffService.getStaffByEmployeeCode(employeeCode);
     }
 
     @PutMapping("/updateByEmployeeCode/{employeeCode}")
     public Staff updateStaff(@RequestBody Staff newStaff, @PathVariable("employeeCode") int employeeCode ) {
-        logger.debug("Update staff by employee code endpoint called.");
+        logger.info("Update staff by employee code endpoint called.");
         return staffService.updateStaffByEmployeeCode(employeeCode, newStaff);
     }
 
     @DeleteMapping("/deleteByEmployeeCode/{employeeCode}")
     public String deleteStaffByEmployeeCode(@PathVariable("employeeCode")int employeeCode){
         staffService.deleteStaffByEmployeeCode(employeeCode);
-        logger.debug("Delete staff by employee code endpoint called.");
+        logger.info("Delete staff by employee code endpoint called.");
         return "Deleted Successfully.";
     }
 

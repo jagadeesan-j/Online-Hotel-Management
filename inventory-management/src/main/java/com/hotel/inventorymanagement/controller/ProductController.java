@@ -24,37 +24,37 @@ public class ProductController {
             notes = "This API returns a string if the controller is working fine.",
             response = String.class)
     public String test() {
-        logger.debug("Product test endpoint called.");
+        logger.info("Product test endpoint called.");
         return "Testing product controller.";
     }
 
     @PostMapping("/add")
     public Product addProduct(@RequestBody Product product) {
-        logger.debug("Add product endpoint called.");
+        logger.info("Add product endpoint called.");
         return productService.addProduct(product);
     }
 
     @GetMapping("/all")
     public List<Product> getAllProduct() {
-        logger.debug("List all product endpoint called.");
+        logger.info("List all product endpoint called.");
         return productService.getAllProduct();
     }
 
     @GetMapping("/getByProductID/{productID}")
     public Product getProductByProductID(@PathVariable("productID") String productID) {
-        logger.debug("Get product by ID endpoint called.");
+        logger.info("Get product by ID endpoint called.");
         return productService.getProductByProductID(productID);
     }
 
     @PutMapping("/updateByProductID/{productID}")
     public Product updateProduct(@RequestBody Product newProduct, @PathVariable("productID") String productID) {
-        logger.debug("Update product by ID endpoint called.");
+        logger.info("Update product by ID endpoint called.");
         return productService.updateProductByProductID(productID, newProduct);
     }
 
     @DeleteMapping("/deleteByProductID/{productID}")
     public String deleteProductByProductID(@PathVariable("productID") String productID) {
-        logger.debug("Delete product by ID endpoint called.");
+        logger.info("Delete product by ID endpoint called.");
         productService.deleteProductByProductID(productID);
         return "Deleted successfully.";
     }
