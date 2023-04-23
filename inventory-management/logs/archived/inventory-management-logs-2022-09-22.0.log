@@ -1,0 +1,12 @@
+2022-09-22 00:28:32,761 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 4480 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
+2022-09-22 00:28:32,768 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 00:28:32,769 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 00:28:41,208 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 10.196 seconds (JVM running for 11.058)
+2022-09-22 13:58:57,150 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplicationTests using Java 11.0.15 on JagadeesanJHP with PID 16872 (started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
+2022-09-22 13:58:57,152 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 13:58:57,153 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 13:59:04,708 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplicationTests in 8.444 seconds (JVM running for 10.581)
+2022-09-22 13:59:50,174 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplicationTests using Java 11.0.15 on JagadeesanJHP with PID 16956 (started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
+2022-09-22 13:59:50,177 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 13:59:50,179 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 13:59:57,493 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplicationTests in 8.118 seconds (JVM running for 9.965)

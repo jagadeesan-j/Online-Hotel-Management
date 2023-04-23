@@ -1,0 +1,97 @@
+<div class="container">
+  <h1>Add Reservation</h1>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Booking ID</label>
+      <input
+        type="text"
+        class="form-control"
+        id="bookingID"
+        [(ngModel)]="reservation.bookingID"
+        name="bookingID"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Member Code</label>
+      <input
+        type="number"
+        class="form-control"
+        id="memberCode"
+        [(ngModel)]="reservation.memberCode"
+        name="memberCode"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>No of Children</label>
+      <input
+        type="number"
+        class="form-control"
+        id="noOfChildren"
+        [(ngModel)]="reservation.noOfChildren"
+        name="noOfChildren"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>No of Adult</label>
+      <input
+        type="number"
+        class="form-control"
+        id="noOfAdult"
+        [(ngModel)]="reservation.noOfAdult"
+        name="noOfAdult"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Check In Date</label>
+      <input
+        type="date"
+        class="form-control"
+        id="checkInDate"
+        [(ngModel)]="reservation.checkInDate"
+        name="checkInDate"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Check Out Date</label>
+      <input
+        type="date"
+        class="form-control"
+        id="checkOutDate"
+        [(ngModel)]="reservation.checkOutDate"
+        name="checkOutDate"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>No of Nights</label>
+      <input
+        type="number"
+        class="form-control"
+        id="noOfNights"
+        [(ngModel)]="reservation.noOfNights"
+        name="noOfNights"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Payment Status</label>
+      <input
+        type="text"
+        class="form-control"
+        id="paymentStatus"
+        [(ngModel)]="reservation.paymentStatus"
+        name="paymentStatus"
+      />
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <button mat-raised-button color="primary" routerLink="/reservation/list">Back</button>
+</div>

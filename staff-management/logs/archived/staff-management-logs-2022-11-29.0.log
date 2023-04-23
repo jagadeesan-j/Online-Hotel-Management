@@ -1,0 +1,10 @@
+2022-11-29 10:09:35,444 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 7588 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-11-29 10:09:35,447 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-29 10:09:35,448 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-29 10:09:42,824 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'jwtRequestFilter' configured for use
+2022-11-29 10:09:47,328 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 13.262 seconds (JVM running for 14.467)
+2022-11-29 13:24:25,414 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 12084 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-11-29 13:24:25,478 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-29 13:24:25,480 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-29 13:24:32,432 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'jwtRequestFilter' configured for use
+2022-11-29 13:24:41,398 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 17.342 seconds (JVM running for 18.266)

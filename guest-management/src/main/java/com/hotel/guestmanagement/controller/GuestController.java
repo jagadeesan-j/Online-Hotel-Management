@@ -8,9 +8,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
+//@CrossOrigin(origins = "*")
 @RequestMapping("/guest")
 public class GuestController {
 
@@ -29,7 +31,7 @@ public class GuestController {
     }
 
     @PostMapping("/add")
-    public Guest addGuest(@RequestBody Guest guest) {
+    public Guest addGuest(@Valid @RequestBody Guest guest) {
         logger.info("Add guest endpoint called.");
         return guestService.addGuest(guest);
     }
@@ -47,7 +49,7 @@ public class GuestController {
     }
 
     @PutMapping("/update/{memberCode}")
-    public Guest updateGuest(@RequestBody Guest newGuest, @PathVariable("memberCode") int memberCode) {
+    public Guest updateGuest(@Valid @RequestBody Guest newGuest, @PathVariable("memberCode") int memberCode) {
         logger.info("Update guest by member code endpoint called.");
         return guestService.updateGuestByMemberCode(memberCode, newGuest);
     }

@@ -35,9 +35,9 @@ public class GuestServiceImpl implements GuestService {
 
         if(oldGuest != null) {
             if(newGuest.getName()!=null && !newGuest.getName().isEmpty())
-                oldGuest.setName(oldGuest.getName());
+                oldGuest.setName(newGuest.getName());
 
-            if(newGuest.getPhoneNumber() != 0)
+            if(newGuest.getPhoneNumber() >= 0)
                 oldGuest.setPhoneNumber(newGuest.getPhoneNumber());
 
             if(newGuest.getCompany()!= null && !newGuest.getCompany().isEmpty())

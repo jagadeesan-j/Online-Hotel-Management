@@ -1,0 +1,53 @@
+<div class="container">
+  <h1>Add Rooom</h1>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Room Number</label>
+      <input
+        type="number"
+        class="form-control"
+        id="roomNumber"
+        [(ngModel)]="room.roomNumber"
+        name="roomNumber"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Room Tier</label>
+      <input
+        type="text"
+        class="form-control"
+        id="roomTier"
+        [(ngModel)]="room.roomTier"
+        name="roomTier"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Room Type</label>
+      <input
+        type="text"
+        class="form-control"
+        id="roomType"
+        [(ngModel)]="room.roomType"
+        name="roomType"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Room Status</label>
+      <input
+        type="text"
+        class="form-control"
+        id="roomStatus"
+        [(ngModel)]="room.roomStatus"
+        name="roomStatus"
+      />
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <button mat-raised-button color="primary" routerLink="/reservation/room/list">Back</button>
+</div>

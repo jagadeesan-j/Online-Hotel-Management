@@ -1,0 +1,70 @@
+<div class="container">
+  <h1>Add Product</h1>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Product ID</label>
+      <input
+        type="text"
+        class="form-control"
+        id="productID"
+        [(ngModel)]="product.productID"
+        name="productID"
+      />
+
+      <!-- <mat-form-field floatLabel="always" appearance="fill" color="accent">
+        <mat-label>Member Code</mat-label>
+        <input matInput required />
+        <mat-hint align="end">required</mat-hint>
+      </mat-form-field> -->
+    </div>
+
+    <div class="form-group">
+      <label>Product Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="productName"
+        [(ngModel)]="product.productName"
+        name="productName"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Quantity</label>
+      <input
+        type="number"
+        class="form-control"
+        id="productQuantity"
+        [(ngModel)]="product.productQuantity"
+        name="productQuantity"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Price</label>
+      <input
+        type="number"
+        class="form-control"
+        id="productPrice"
+        [(ngModel)]="product.productPrice"
+        name="productPrice"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Category</label>
+      <input
+        type="text"
+        class="form-control"
+        id="productCategory"
+        [(ngModel)]="product.productCategory"
+        name="productCategory"
+      />
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <button mat-raised-button color="primary" routerLink="/inventory/product/list">Back</button>
+</div>

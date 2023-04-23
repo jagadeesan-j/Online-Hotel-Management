@@ -3,13 +3,21 @@ package com.hotel.reservationmanagement.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import javax.validation.constraints.NotNull;
+
 @Document
 public class Room {
 
     @Id
     private int roomNumber;
+
+    @NotNull(message = "Room tier must be entered")
     private String roomTier;
+
+    @NotNull(message = "Room type must be entered")
     private String roomType;
+
+    @NotNull(message = "Room status is mandatory.")
     private String roomStatus;
 
     public Room() {

@@ -41,7 +41,7 @@ public class RoomServiceImpl implements RoomService {
                 oldRoom.setRoomType(newRoom.getRoomType());
 
             if (newRoom.getRoomStatus() != null && !newRoom.getRoomStatus().isEmpty())
-                oldRoom.setRoomType(newRoom.getRoomStatus());
+                oldRoom.setRoomStatus(newRoom.getRoomStatus());
 
             return roomRepository.save(oldRoom);
         } else

@@ -4,6 +4,7 @@ import com.hotel.staffmanagement.entity.Staff;
 import com.hotel.staffmanagement.repository.StaffRepository;
 import com.hotel.staffmanagement.service.StaffService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,8 +15,12 @@ public class StaffServiceImpl implements StaffService {
     @Autowired
     private StaffRepository staffRepository;
 
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     @Override
     public Staff addStaff(Staff staff) {
+        staff.setPassword(getEncodedPassword(staff.getPassword()));
         return staffRepository.save(staff);
     }
 
@@ -25,12 +30,12 @@ public class StaffServiceImpl implements StaffService {
     }
 
     @Override
-    public Staff getStaffByEmployeeCode(int employeeCode) {
+    public Staff getStaffByEmployeeCode(String employeeCode) {
         return staffRepository.findByEmployeeCode(employeeCode);
     }
 
     @Override
-    public Staff updateStaffByEmployeeCode(int employeeCode, Staff newStaff) {
+    public Staff updateStaffByEmployeeCode(String employeeCode, Staff newStaff) {
         Staff oldStaff = staffRepository.findByEmployeeCode(employeeCode);
 
         if (oldStaff != null) {
@@ -61,7 +66,26 @@ public class StaffServiceImpl implements StaffService {
     }
 
     @Override
-    public void deleteStaffByEmployeeCode(int employeeCode) {
+    public void deleteStaffByEmployeeCode(String employeeCode) {
         staffRepository.deleteByEmployeeCode(employeeCode);
     }
+
+    public String getEncodedPassword(String password) {
+        return passwordEncoder.encode(password);
+    }
+
+//    @Override
+//    public void init() {
+//        Staff admin = new Staff();
+//        admin.setEmployeeCode("EMP101");
+//        admin.setEmployeeName("Employee 101");
+//        admin.setEmployeeAddress("Bangalore");
+//        admin.setPanCard("SKSTY5797A");
+//        admin.setSalary(1_00_000);
+//        admin.setAge(30);
+//        admin.setRole("admin");
+//        admin.setPassword(getEncodedPassword("empl@101"));
+//        admin.setEmail("emp101@hotel.com");
+//        staffRepository.save(admin);
+//    }
 }

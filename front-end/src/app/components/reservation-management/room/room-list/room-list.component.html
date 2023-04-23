@@ -1,0 +1,31 @@
+<div class="container">
+  <h1>Room List</h1>
+
+  <button mat-raised-button color="primary" routerLink="/reservation/room/add">Add Room</button>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Room Number</th>
+        <th>Room Tier</th>
+        <th>Room Type</th>
+        <th>Room Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let room of roomList">
+        <td>{{room.roomNumber}}</td>
+        <td>{{room.roomTier}}</td>
+        <td>{{room.roomType}}</td>
+        <td>{{room.roomStatus}}</td>
+        <td>
+          <button class="btn btn-info" (click)="updateRoom(room.roomNumber)">Update</button>
+          <button class="btn btn-danger" (click)="deleteRoom(room.roomNumber)" style="margin-left: 10px">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button mat-raised-button color="primary" routerLink="/home">Back</button>
+</div>

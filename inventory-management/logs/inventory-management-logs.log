@@ -1,4 +1,13 @@
-2022-09-22 00:28:32,761 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 4480 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
-2022-09-22 00:28:32,768 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
-2022-09-22 00:28:32,769 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-09-22 00:28:41,208 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 10.196 seconds (JVM running for 11.058)
+2023-04-14 18:38:16,869 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 196 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\inventory-management)
+2023-04-14 18:38:16,872 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-04-14 18:38:16,874 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-14 18:38:26,949 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 11.123 seconds (JVM running for 12.061)
+2023-04-14 18:43:34,364 INFO com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-5] List all category endpoint called.
+2023-04-14 18:43:47,135 INFO com.hotel.inventorymanagement.controller.ProductController [http-nio-8085-exec-2] List all product endpoint called.
+2023-04-14 18:44:28,408 INFO com.hotel.inventorymanagement.controller.ProductController [http-nio-8085-exec-4] List all product endpoint called.
+2023-04-14 18:54:57,009 INFO com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-6] List all category endpoint called.
+2023-04-14 18:55:04,013 INFO com.hotel.inventorymanagement.controller.ProductController [http-nio-8085-exec-8] List all product endpoint called.
+2023-04-14 19:35:33,209 INFO com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-10] List all category endpoint called.
+2023-04-14 19:35:45,920 INFO com.hotel.inventorymanagement.controller.ProductController [http-nio-8085-exec-1] List all product endpoint called.
+2023-04-14 19:42:20,438 INFO com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-3] List all category endpoint called.
+2023-04-14 19:42:23,869 INFO com.hotel.inventorymanagement.controller.ProductController [http-nio-8085-exec-4] List all product endpoint called.

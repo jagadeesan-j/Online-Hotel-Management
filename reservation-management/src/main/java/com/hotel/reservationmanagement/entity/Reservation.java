@@ -3,17 +3,27 @@ package com.hotel.reservationmanagement.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import javax.validation.constraints.NotNull;
+
 @Document
 public class Reservation {
 
     @Id
     private String bookingID;
+
+    @NotNull(message = "Member Code is mandatory")
     private int memberCode;
     private int noOfChildren;
     private int noOfAdult;
+
+    @NotNull(message = "Provide check-in date")
     private String checkInDate;
+
+    @NotNull(message = "Provide check-out date")
     private String checkOutDate;
     private int noOfNights;
+
+    @NotNull(message = "Payment Status is mandatory.")
     private String paymentStatus;
 
     public Reservation() {

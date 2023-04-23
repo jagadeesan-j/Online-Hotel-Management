@@ -1,0 +1,4 @@
+2022-09-25 11:47:19,675 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReservationManagementApplicationTests using Java 11.0.15 on JagadeesanJHP with PID 5260 (started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\reservation-management)
+2022-09-25 11:47:19,680 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-25 11:47:19,681 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-25 11:47:28,522 INFO org.springframework.boot.StartupInfoLogger [main] Started ReservationManagementApplicationTests in 9.731 seconds (JVM running for 11.719)

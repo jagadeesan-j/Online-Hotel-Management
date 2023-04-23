@@ -10,10 +10,11 @@ public interface StaffService {
 
     List<Staff> getAllStaff();
 
-    Staff getStaffByEmployeeCode(int employeeCode);
+    Staff getStaffByEmployeeCode(String employeeCode);
 
-    Staff updateStaffByEmployeeCode(int employeeCode,Staff newStaff);
+    Staff updateStaffByEmployeeCode(String employeeCode,Staff newStaff);
 
-    void deleteStaffByEmployeeCode(int employeeCode);
+    void deleteStaffByEmployeeCode(String employeeCode);
 
+//    public void init();
 }

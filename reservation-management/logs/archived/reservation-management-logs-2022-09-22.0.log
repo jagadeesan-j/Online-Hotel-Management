@@ -1,0 +1,4 @@
+2022-09-22 00:32:06,898 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReservationManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 5712 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\reservation-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\reservation-management)
+2022-09-22 00:32:06,902 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 00:32:06,904 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 00:32:14,469 INFO org.springframework.boot.StartupInfoLogger [main] Started ReservationManagementApplication in 8.605 seconds (JVM running for 9.414)

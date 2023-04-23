@@ -8,9 +8,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/inventory/category")
 public class CategoryController {
 
@@ -29,7 +31,7 @@ public class CategoryController {
     }
 
     @PostMapping("/add")
-    public Category addCategory(@RequestBody Category category) {
+    public Category addCategory(@Valid @RequestBody Category category) {
         logger.info("Add category endpoint called.");
         return categoryService.addCategory(category);
     }
@@ -47,7 +49,7 @@ public class CategoryController {
     }
 
     @PutMapping("/updateByCategoryID/{categoryID}")
-    public Category updateCategoryByCategoryID(@RequestBody Category newCategory, @PathVariable("categoryID") String categoryID) {
+    public Category updateCategoryByCategoryID(@Valid @RequestBody Category newCategory, @PathVariable("categoryID") String categoryID) {
         logger.info("Update category by ID endpoint called.");
         return categoryService.updateCategoryByCategoryID(categoryID, newCategory);
     }

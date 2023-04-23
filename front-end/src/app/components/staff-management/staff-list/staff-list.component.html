@@ -1,0 +1,32 @@
+<div class="container">
+  <h1>Staff List</h1>
+
+  <button mat-raised-button color="primary" routerLink="/staff/add">Add Staff</button>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Employee Code</th>
+        <th>Employee Name</th>
+        <th>Role</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let staff of staffList">
+        <td>{{staff.employeeCode}}</td>
+        <td>{{staff.employeeName}}</td>
+        <td>{{staff.role.toUpperCase}}</td>
+        <td>{{staff.email}}</td>
+        <td>
+          <button class="btn btn-info" (click)="updateStaff(staff.employeeCode)">Update</button>
+          <button class="btn btn-danger" (click)="deleteStaff(staff.employeeCode)" style="margin-left: 10px">Delete</button>
+          <button class="btn btn-info" (click)="staffDetails(staff.employeeCode)" style="margin-left: 10px">View</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button mat-raised-button color="primary" routerLink="/home">Back</button>
+</div>

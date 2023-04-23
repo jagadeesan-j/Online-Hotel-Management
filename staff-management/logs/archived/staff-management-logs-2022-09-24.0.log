@@ -1,0 +1,13 @@
+2022-09-24 21:57:41,520 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 11532 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-24 21:57:41,526 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-24 21:57:41,529 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-24 21:57:51,203 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StaffManagementApplication in 10.97 seconds (JVM running for 12.316)
+2022-09-24 21:59:17,918 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-2] List all staff endpoint called.
+2022-09-24 22:00:07,854 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 14936 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-24 22:00:07,857 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-24 22:00:07,858 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-24 22:00:16,010 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StaffManagementApplication in 9.734 seconds (JVM running for 10.992)
+2022-09-24 22:19:41,410 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplicationTests using Java 11.0.15 on JagadeesanJHP with PID 17792 (started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-24 22:19:41,415 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-24 22:19:41,416 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-24 22:19:50,439 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplicationTests in 9.884 seconds (JVM running for 11.702)

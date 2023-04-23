@@ -3,14 +3,20 @@ package com.hotel.inventorymanagement.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import javax.validation.constraints.NotNull;
+
 @Document
 public class Product {
 
     @Id
     private String productID;
+
+    @NotNull(message = "Product Name must be added.")
     private String productName;
     private int productQuantity;
     private float productPrice;
+
+    @NotNull(message = "Product category must be added.")
     private String productCategory;
 
     public Product() {

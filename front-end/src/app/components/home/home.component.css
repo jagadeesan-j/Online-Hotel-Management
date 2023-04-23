@@ -1,0 +1,15 @@
+/* .component-body{
+
+  background-image: url(/assets/home.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+} */
+
+.card{
+  display: inline-flex;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

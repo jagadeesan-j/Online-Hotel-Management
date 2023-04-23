@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -29,7 +30,7 @@ public class RoomController {
     }
 
     @PostMapping("/add")
-    public Room addRoom(@RequestBody Room room) {
+    public Room addRoom(@Valid @RequestBody Room room) {
         logger.info("Add room endpoint called.");
         return roomService.addRoom(room);
     }
@@ -47,7 +48,7 @@ public class RoomController {
     }
 
     @PutMapping("/updateByRoomNumber/{roomNumber}")
-    public Room updateRoomByRoomNumber(@RequestBody Room newRoom, @PathVariable("roomNumber") int roomNumber) {
+    public Room updateRoomByRoomNumber(@Valid @RequestBody Room newRoom, @PathVariable("roomNumber") int roomNumber) {
         logger.info("Update room by room number endpoint called.");
         return roomService.updateRoomByRoomNumber(roomNumber, newRoom);
     }

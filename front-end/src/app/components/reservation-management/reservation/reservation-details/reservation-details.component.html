@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>View Reservation Details</h1>
+
+  <div><label><b>Booking ID: </b></label>{{reservation.bookingID}}</div>
+  <div><label><b>Member Code: </b></label>{{reservation.memberCode}}</div>
+  <div><label><b>No. of Children: </b></label>{{reservation.noOfChildren}}</div>
+  <div><label><b>No. of Adult: </b></label>{{reservation.noOfAdult}}</div>
+  <div><label><b>Check In Date: </b></label>{{reservation.checkInDate}}</div>
+  <div><label><b>Check Out Date: </b></label>{{reservation.checkOutDate}}</div>
+  <div><label><b>No. Of Nights: </b></label>{{reservation.noOfNights}}</div>
+  <div><label><b>Payment Status: </b></label>{{reservation.paymentStatus}}</div>
+
+  <button mat-raised-button color="primary" routerLink="/reservation/list">Back</button>
+</div>

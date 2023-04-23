@@ -1,0 +1,34 @@
+<div class="container">
+  <h1>Reservation List</h1>
+
+  <button mat-raised-button color="primary" routerLink="/reservation/add">Add Reservation</button>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Booking ID</th>
+        <th>Member Code</th>
+        <th>Check In</th>
+        <th>Check Out</th>
+        <th>Payment Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let reservation of reservationList">
+        <td>{{reservation.bookingID}}</td>
+        <td>{{reservation.memberCode}}</td>
+        <td>{{reservation.checkInDate}}</td>
+        <td>{{reservation.checkOutDate}}</td>
+        <td>{{reservation.paymentStatus}}</td>
+        <td>
+          <button class="btn btn-info" (click)="updateReservation(reservation.bookingID)">Update</button>
+          <button class="btn btn-danger" (click)="deleteReservation(reservation.bookingID)" style="margin-left: 10px">Delete</button>
+          <button class="btn btn-info" (click)="reservationDetails(reservation.bookingID)" style="margin-left: 10px">View</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button mat-raised-button color="primary" routerLink="/home">Back</button>
+</div>

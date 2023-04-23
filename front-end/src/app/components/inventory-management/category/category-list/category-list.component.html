@@ -1,0 +1,27 @@
+<div class="container">
+  <h1>Category List</h1>
+
+  <button mat-raised-button color="primary" routerLink="/inventory/category/add">Add Category</button>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Category ID</th>
+        <th>Category Name</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let category of categoryList">
+        <td>{{category.categoryID}}</td>
+        <td>{{category.categoryName}}</td>
+        <td>
+          <button class="btn btn-info" (click)="updateCategory(category.categoryID)">Update</button>
+          <button class="btn btn-danger" (click)="deleteCategory(category.categoryID)" style="margin-left: 10px">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button mat-raised-button color="primary" routerLink="/home">Back</button>
+</div>

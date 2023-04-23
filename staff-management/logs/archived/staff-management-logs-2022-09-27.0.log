@@ -1,0 +1,55 @@
+2022-09-27 00:00:34,808 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 14792 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 00:00:34,812 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 00:00:34,813 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 00:00:41,685 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 8.042 seconds (JVM running for 9.178)
+2022-09-27 00:01:45,061 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-2] Add staff endpoint called.
+2022-09-27 00:01:56,565 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-4] Staff test endpoint called.
+2022-09-27 00:02:10,376 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-5] List all staff endpoint called.
+2022-09-27 01:13:56,136 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 18092 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 01:13:56,138 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 01:13:56,140 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 01:14:04,603 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 9.851 seconds (JVM running for 11.2)
+2022-09-27 01:14:59,998 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-5] Staff test endpoint called.
+2022-09-27 01:15:55,447 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-7] Staff test endpoint called.
+2022-09-27 01:17:37,879 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-2] List all staff endpoint called.
+2022-09-27 10:19:06,774 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 15956 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:19:06,777 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:19:06,778 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:19:15,539 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 9.97 seconds (JVM running for 11.068)
+2022-09-27 10:22:00,251 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 14852 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:22:00,253 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:22:00,254 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:22:07,534 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 8.603 seconds (JVM running for 9.596)
+2022-09-27 10:24:00,096 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 5292 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:24:00,098 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:24:00,098 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:24:08,770 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 9.81 seconds (JVM running for 10.937)
+2022-09-27 10:25:44,414 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 18040 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:25:44,417 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:25:44,418 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:25:51,960 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 8.894 seconds (JVM running for 9.999)
+2022-09-27 10:29:13,313 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 2760 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:29:13,315 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:29:13,316 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:29:21,281 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 9.319 seconds (JVM running for 10.297)
+2022-09-27 10:31:04,129 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 9552 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:31:04,129 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:31:04,129 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:31:12,051 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 9.262 seconds (JVM running for 10.284)
+2022-09-27 10:48:01,312 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 20852 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:48:01,314 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:48:01,315 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:48:11,301 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 11.2 seconds (JVM running for 12.299)
+2022-09-27 10:50:10,575 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 22320 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:50:10,578 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:50:10,585 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:50:19,215 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 9.93 seconds (JVM running for 10.929)
+2022-09-27 10:54:53,702 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 15964 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 10:54:53,704 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 10:54:53,705 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 10:55:02,906 INFO org.springframework.boot.StartupInfoLogger [main] Started StaffManagementApplication in 10.513 seconds (JVM running for 11.484)
+2022-09-27 10:55:14,670 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-2] Staff test endpoint called.
+2022-09-27 11:17:11,054 INFO com.hotel.staffmanagement.controller.StaffController [http-nio-8082-exec-6] List all staff endpoint called.
+2022-09-27 14:13:49,930 INFO org.springframework.boot.StartupInfoLogger [main] Starting StaffManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 23284 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\staff-management)
+2022-09-27 14:13:49,934 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-27 14:13:49,936 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"

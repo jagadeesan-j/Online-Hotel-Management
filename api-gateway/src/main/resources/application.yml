@@ -21,6 +21,26 @@ spring:
           uri: http://localhost:8084/
           predicates:
             - Path=/reservation/**
+        - id: payment-gateway
+          uri: http://localhost:8086/
+          predicates:
+            - Path=/**
+        - id: razorpay-gateway
+          uri: http://localhost:8090/
+          predicates:
+            - Path=/**
+
+      globalcors:
+        cors-Configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200/"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+
 
   application:
     name: api-gateway

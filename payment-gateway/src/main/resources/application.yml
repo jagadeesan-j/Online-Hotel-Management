@@ -1,0 +1,21 @@
+paytm.payment:
+  sandbox:
+    merchantId: JOiJPy32252108856352
+    merchantKey: FuktvwTkHdmHrs@r
+    channelId: WEB
+    website: WEBSTAGING
+    industryTypeId: Retail
+    paytmUrl:  https://securegw-stage.paytm.in/order/process
+    callbackUrl: http://localhost:8086/pgresponse
+    details:
+      MID: ${paytm.payment.sandbox.merchantId}
+      CHANNEL_ID: ${paytm.payment.sandbox.channelId}
+      INDUSTRY_TYPE_ID: ${paytm.payment.sandbox.industryTypeId}
+      WEBSITE: ${paytm.payment.sandbox.website}
+      CALLBACK_URL: ${paytm.payment.sandbox.callbackUrl}
+
+#  mobile: 9791227999
+#  email: jagajjh372000@gmail.com
+#
+#server:
+#  port: 8086

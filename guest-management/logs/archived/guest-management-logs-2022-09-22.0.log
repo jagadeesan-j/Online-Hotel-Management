@@ -1,0 +1,41 @@
+2022-09-22 14:35:33,214 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplicationTests using Java 11.0.15 on JagadeesanJHP with PID 7904 (started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-09-22 14:35:33,218 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 14:35:33,220 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 14:35:41,331 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplicationTests in 8.967 seconds (JVM running for 10.677)
+2022-09-22 14:36:02,481 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplicationTests using Java 11.0.15 on JagadeesanJHP with PID 972 (started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-09-22 14:36:02,484 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 14:36:02,485 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 14:36:11,239 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplicationTests in 9.517 seconds (JVM running for 11.156)
+2022-09-22 20:34:30,101 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplicationTests using Java 11.0.15 on JagadeesanJHP with PID 10612 (started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-09-22 20:34:30,105 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 20:34:30,105 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 20:34:37,789 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplicationTests in 8.544 seconds (JVM running for 10.395)
+2022-09-22 20:34:52,062 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 17424 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-09-22 20:34:52,065 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 20:34:52,067 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 20:34:59,316 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplication in 8.582 seconds (JVM running for 9.657)
+2022-09-22 21:08:01,284 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-1] Add guest endpoint called.
+2022-09-22 21:08:13,399 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-3] List all guest endpoint called.
+2022-09-22 21:08:28,466 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-4] Delete guest by member code endpoint called.
+2022-09-22 21:09:41,731 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-8] List all guest endpoint called.
+2022-09-22 21:10:44,192 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-1] Add guest endpoint called.
+2022-09-22 21:10:48,103 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-3] List all guest endpoint called.
+2022-09-22 21:10:53,679 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-4] Delete guest by member code endpoint called.
+2022-09-22 21:11:46,406 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-5] Add guest endpoint called.
+2022-09-22 21:12:05,385 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-7] List all guest endpoint called.
+2022-09-22 21:12:12,188 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-6] Delete guest by member code endpoint called.
+2022-09-22 21:14:02,526 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 19864 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-09-22 21:14:02,528 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 21:14:02,529 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 21:14:09,783 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplication in 8.535 seconds (JVM running for 9.638)
+2022-09-22 21:47:43,374 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 20476 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-09-22 21:47:43,376 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 21:47:43,378 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 21:47:51,284 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplication in 9.393 seconds (JVM running for 10.446)
+2022-09-22 21:48:34,719 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-4] List all guest endpoint called.
+2022-09-22 21:49:36,002 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 16556 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-09-22 21:49:36,004 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-22 21:49:36,005 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-22 21:49:42,971 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplication in 8.432 seconds (JVM running for 9.506)
+2022-09-22 21:49:59,438 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-4] Update guest by member code endpoint called.
+2022-09-22 21:50:02,735 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-5] List all guest endpoint called.

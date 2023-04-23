@@ -1,0 +1,83 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "4f7005ee-14fb-456d-bace-c5f0996dad45",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://jagadeesanj:jagaatmongodb9@cluster0.nhqercr.mongodb.net/test"
+      },
+      "favorite": {
+        "name": "Cluster0",
+        "color": "color3"
+      },
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1662390693967"
+        }
+      }
+    },
+    {
+      "id": "f5cd99c4-4318-4697-b3bd-0ae3845ab477",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://admin:root@staff-management-db.96azk7c.mongodb.net/test"
+      },
+      "favorite": {
+        "name": "staff-management-db",
+        "color": "color7"
+      },
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1666846963586"
+        }
+      }
+    },
+    {
+      "id": "40618957-19ad-40b0-8281-5f432e100841",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://admin:root@inventory-management-db.ik6vas5.mongodb.net/test"
+      },
+      "favorite": {
+        "name": "inventory-management-db",
+        "color": "color7"
+      },
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1669022506720"
+        }
+      }
+    },
+    {
+      "id": "04626871-0dfb-405f-ab30-7097e251fa04",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://admin:root@reservations-management.xuxvtcf.mongodb.net/test"
+      },
+      "favorite": {
+        "name": "reservations-management-db",
+        "color": "color7"
+      },
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1669086018961"
+        }
+      }
+    },
+    {
+      "id": "75a8ebb0-b1cf-4a29-aa4c-4cede6d3501c",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://admin:root@guest-management-db.xfvhzcx.mongodb.net/test"
+      },
+      "favorite": {
+        "name": "guest-management-db",
+        "color": "color7"
+      },
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1669708983582"
+        }
+      }
+    }
+  ]
+}

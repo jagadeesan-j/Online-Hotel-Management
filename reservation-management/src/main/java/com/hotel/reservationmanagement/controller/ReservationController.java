@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -29,7 +30,7 @@ public class ReservationController {
     }
 
     @PostMapping("/add")
-    public Reservation addReservation(@RequestBody Reservation reservation) {
+    public Reservation addReservation(@Valid @RequestBody Reservation reservation) {
         logger.info("Add reservation endpoint called.");
         return reservationService.addReservation(reservation);
     }
@@ -47,7 +48,7 @@ public class ReservationController {
     }
 
     @PutMapping("/updateByBookingID/{bookingID}")
-    public Reservation updateReservationByBookingID(@RequestBody Reservation newReservation, @PathVariable("bookingID") String bookingID) {
+    public Reservation updateReservationByBookingID(@Valid @RequestBody Reservation newReservation, @PathVariable("bookingID") String bookingID) {
         logger.info("Update reservation by booking ID endpoint called.");
         return reservationService.updateReservationByBookingID(bookingID, newReservation);
     }

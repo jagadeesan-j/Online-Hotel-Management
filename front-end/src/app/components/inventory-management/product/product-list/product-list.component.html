@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Product List</h1>
+
+  <button mat-raised-button color="primary" routerLink="/inventory/product/add">Add Product</button>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of productList">
+        <td>{{product.productID}}</td>
+        <td>{{product.productName}}</td>
+        <td>{{product.productQuantity}}</td>
+        <td>{{product.productPrice}}</td>
+        <td>{{product.productCategory}}</td>
+        <td>
+          <button class="btn btn-info" (click)="updateProduct(product.productID)">Update</button>
+          <button class="btn btn-danger" (click)="deleteProduct(product.productID)" style="margin-left: 10px">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button mat-raised-button color="primary" routerLink="/home">Back</button>
+</div>

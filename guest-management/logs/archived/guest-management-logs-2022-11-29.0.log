@@ -1,0 +1,12 @@
+2022-11-29 10:08:34,848 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 6460 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-11-29 10:08:34,851 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-29 10:08:34,852 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-29 10:08:42,710 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplication in 8.877 seconds (JVM running for 14.341)
+2022-11-29 13:23:57,738 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplication using Java 11.0.15 on JagadeesanJHP with PID 22168 (E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management\target\classes started by jagaj in E:\CAPGEMINI\UpSkill\Projects\Online-Hotel-Management\guest-management)
+2022-11-29 13:23:57,746 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-11-29 13:23:57,747 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-29 13:24:08,096 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplication in 12.798 seconds (JVM running for 15.676)
+2022-11-29 13:32:20,831 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-1] List all guest endpoint called.
+2022-11-29 13:33:28,777 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-2] Get guest by member code endpoint called.
+2022-11-29 13:33:30,534 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-7] List all guest endpoint called.
+2022-11-29 13:33:35,696 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-4] List all guest endpoint called.
