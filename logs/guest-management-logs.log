@@ -3,3 +3,13 @@
 2022-10-03 20:13:30,454 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
 2022-10-03 20:13:41,312 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplication in 12.107 seconds (JVM running for 16.489)
 2022-10-03 20:15:37,099 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-4] Guest test endpoint called.
+2023-04-23 11:35:07,891 INFO org.springframework.boot.StartupInfoLogger [main] Starting GuestManagementApplication using Java 11.0.18 on inlen8520088151 with PID 8772 (C:\Users\jagadeej\OneDrive - Capgemini\Documents\Case Studies\Online-Hotel-Management\guest-management\target\classes started by jagadeej in C:\Users\jagadeej\OneDrive - Capgemini\Documents\Case Studies\Online-Hotel-Management)
+2023-04-23 11:35:07,893 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-04-23 11:35:07,894 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-23 11:35:19,754 INFO org.springframework.boot.StartupInfoLogger [main] Started GuestManagementApplication in 13.502 seconds (JVM running for 14.237)
+2023-04-23 11:46:07,576 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-2] List all guest endpoint called.
+2023-04-23 11:46:23,737 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-3] List all guest endpoint called.
+2023-04-23 11:46:41,876 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-6] Get guest by member code endpoint called.
+2023-04-23 11:47:34,274 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-10] Add guest endpoint called.
+2023-04-23 11:47:34,420 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-1] List all guest endpoint called.
+2023-04-23 11:55:28,727 INFO com.hotel.guestmanagement.controller.GuestController [http-nio-8081-exec-3] Get guest by member code endpoint called.

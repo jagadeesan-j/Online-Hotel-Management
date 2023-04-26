@@ -4,3 +4,7 @@
 2022-10-03 20:13:53,407 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 11.22 seconds (JVM running for 12.558)
 2022-10-03 20:16:39,363 INFO com.hotel.inventorymanagement.controller.CategoryController [http-nio-8085-exec-1] Category test endpoint called.
 2022-10-03 20:16:44,959 INFO com.hotel.inventorymanagement.controller.ProductController [http-nio-8085-exec-2] Product test endpoint called.
+2023-04-23 11:49:57,724 INFO org.springframework.boot.StartupInfoLogger [main] Starting InventoryManagementApplication using Java 11.0.18 on inlen8520088151 with PID 7040 (C:\Users\jagadeej\OneDrive - Capgemini\Documents\Case Studies\Online-Hotel-Management\inventory-management\target\classes started by jagadeej in C:\Users\jagadeej\OneDrive - Capgemini\Documents\Case Studies\Online-Hotel-Management)
+2023-04-23 11:49:57,751 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-04-23 11:49:57,752 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-23 11:50:11,055 INFO org.springframework.boot.StartupInfoLogger [main] Started InventoryManagementApplication in 14.814 seconds (JVM running for 15.764)

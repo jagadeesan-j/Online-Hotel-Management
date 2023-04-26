@@ -4,3 +4,9 @@
 2022-10-03 20:14:25,910 INFO org.springframework.boot.StartupInfoLogger [main] Started ReservationManagementApplication in 12.29 seconds (JVM running for 13.593)
 2022-10-03 20:16:09,494 INFO com.hotel.reservationmanagement.controller.RoomController [http-nio-8084-exec-1] Room test endpoint called.
 2022-10-03 20:16:23,963 INFO com.hotel.reservationmanagement.controller.ReservationController [http-nio-8084-exec-2] Reservation test endpoint called.
+2023-04-23 11:50:16,180 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReservationManagementApplication using Java 11.0.18 on inlen8520088151 with PID 8644 (C:\Users\jagadeej\OneDrive - Capgemini\Documents\Case Studies\Online-Hotel-Management\reservation-management\target\classes started by jagadeej in C:\Users\jagadeej\OneDrive - Capgemini\Documents\Case Studies\Online-Hotel-Management)
+2023-04-23 11:50:16,189 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.3, Spring v5.3.22
+2023-04-23 11:50:16,190 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-23 11:50:29,372 INFO org.springframework.boot.StartupInfoLogger [main] Started ReservationManagementApplication in 14.717 seconds (JVM running for 15.829)
+2023-04-23 11:51:54,624 INFO com.hotel.reservationmanagement.controller.RoomController [http-nio-8084-exec-1] List all room endpoint called.
+2023-04-23 11:55:28,661 INFO com.hotel.reservationmanagement.controller.RoomController [http-nio-8084-exec-2] List all room endpoint called.
